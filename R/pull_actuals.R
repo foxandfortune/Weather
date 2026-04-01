@@ -117,7 +117,7 @@ for (i in seq_len(nrow(stations))) {
 
   # Load existing data to find what's already present
   if (file.exists(outfile)) {
-    existing     <- read_csv(outfile, show_col_types = FALSE)
+    existing       <- read_csv(outfile, col_types = cols(.default = "c"), show_col_types = FALSE)
     existing_dates <- as.Date(existing$date)
     # Only fetch dates not already in file
     fetch_start <- max(max(existing_dates) + days(1), START_DATE)

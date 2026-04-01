@@ -1,2 +1,7 @@
 station_id,name,lat,lon,ncei_ghcnd_id,timezone
 KHOU,Houston Hobby,29.6454,-95.2789,USW00012918,America/Chicago
+KNYC,New York Central Park,40.713,-74.0072,USW00094728,America/New_York
+KDFW,Dallas Fort Worth,32.8975,-97.0444,USW00003927,America/Chicago
+KMIA,Miami International,25.795,-80.2798,USW00012839,America/New_York
+KBOS,Boston Logan,42.3635,-71.0181,USW00014739,America/New_York
+KSEA,Seattle Tacoma,47.4436,-122.3029,USW00024233,America/Los_Angeles

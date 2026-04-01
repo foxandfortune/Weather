@@ -99,7 +99,7 @@ fetch_ncei_tmax <- function(ghcnd_id, start_date, end_date, token) {
     all_results[[i]] <- body$results %>%
       transmute(
         date            = as.character(as_date(date)),
-        observed_high_f = as.numeric(value)
+        observed_high_f = as.character(as.numeric(value))
       )
   }
 

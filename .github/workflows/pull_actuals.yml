@@ -16,6 +16,9 @@ on:
         required: false
         default: ""
 
+permissions:
+  contents: write
+
 jobs:
   pull-actuals:
     runs-on: ubuntu-latest

@@ -133,7 +133,7 @@ for (i in seq_len(nrow(stations))) {
   }
 
   write_csv(combined, outfile)
-  message(sprintf("  Appended: %d°F forecast for %s (%d hours coverage)",
+  message(sprintf("  Appended: %s°F forecast for %s (%s hours coverage)",
                   new_row$forecast_high_f, tomorrow, new_row$n_hours_in_forecast))
 }
 

@@ -119,9 +119,10 @@ for (i in seq_len(nrow(stations))) {
   if (file.exists(outfile)) {
     existing       <- read_csv(outfile, col_types = cols(.default = "c"), show_col_types = FALSE)
     existing_dates <- as.Date(existing$date)
-    # Only fetch dates not already in file
-    fetch_start <- max(max(existing_dates) + days(1), START_DATE)
-    message(sprintf("  Existing data through %s; fetching from %s",
+    # Always re-fetch the last 7 days in case NCEI has backfilled recent dates
+    # (NCEI typically lags 2-4 days, so recent dates may have been empty on prior runs)
+    fetch_start <- max(max(existing_dates) - days(7), START_DATE)
+    message(sprintf("  Existing data through %s; fetching from %s (including 7-day lookback)",
                     max(existing_dates), fetch_start))
   } else {
     existing    <- NULL

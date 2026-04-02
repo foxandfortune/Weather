@@ -2,3 +2,4 @@ station_id,station_name,forecast_issued_utc,forecast_for_date,forecast_high_f,n_
 KMIA,Miami International,2026-04-01 22:37 UTC,2026-04-02,80,24,NA
 KMIA,Miami International,2026-04-02 17:02 UTC,2026-04-03,81,24,NA
 KMIA,Miami International,2026-04-02 18:57 UTC,2026-04-03,81,24,2026-04-02 14:57 EDT
+KMIA,Miami International,2026-04-02 22:36 UTC,2026-04-03,81,24,2026-04-02 18:36 EDT

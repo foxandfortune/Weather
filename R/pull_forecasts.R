@@ -84,7 +84,17 @@ for (i in seq_len(nrow(stations))) {
 
   outfile     <- file.path(DATA_DIR, sprintf("forecasts_%s.csv", st$station_id))
   tz          <- st$timezone
+  now_local   <- now(tzone = tz)
   tomorrow    <- today(tzone = tz) + days(1)
+
+  # ── Skip if past 10 PM local time — forecast for tomorrow is essentially set ──
+  if (hour(now_local) >= 22) {
+    message(sprintf("  Skipping: %s local time is past 10 PM cutoff.",
+                    format(now_local, "%H:%M %Z")))
+    next
+  }
+
+  issued_local <- format(now_local, "%Y-%m-%d %H:%M %Z")
 
   # ── Get NWS grid ──
   grid <- tryCatch(get_nws_grid(st$lat, st$lon), error = function(e) {
@@ -102,24 +112,25 @@ for (i in seq_len(nrow(stations))) {
   }
 
   new_row <- data.frame(
-    station_id          = as.character(st$station_id),
-    station_name        = as.character(st$name),
-    forecast_issued_utc = as.character(issued_utc),
-    forecast_for_date   = as.character(tomorrow),
-    forecast_high_f     = as.character(fc$forecast_high_f),
-    n_hours_in_forecast = as.character(fc$n_hours_in_forecast),
-    stringsAsFactors    = FALSE
+    station_id           = as.character(st$station_id),
+    station_name         = as.character(st$name),
+    forecast_issued_utc  = as.character(issued_utc),
+    forecast_issued_local= as.character(issued_local),
+    forecast_for_date    = as.character(tomorrow),
+    forecast_high_f      = as.character(fc$forecast_high_f),
+    n_hours_in_forecast  = as.character(fc$n_hours_in_forecast),
+    stringsAsFactors     = FALSE
   )
 
-  # ── Append to CSV (deduplicate by issued hour + date) ──
+  # ── Append to CSV (deduplicate by local hour + date) ──
   if (file.exists(outfile)) {
     existing <- read_csv(outfile, col_types = cols(.default = "c"), show_col_types = FALSE)
 
-    # Key: same station + same forecast_for_date + same UTC hour
-    issued_hour  <- substr(issued_utc, 1, 13)
+    # Key: same forecast_for_date + same local hour
+    issued_local_hour <- substr(issued_local, 1, 13)
     already_have <- any(
       existing$forecast_for_date == new_row$forecast_for_date &
-      substr(existing$forecast_issued_utc, 1, 13) == issued_hour
+      substr(existing$forecast_issued_local, 1, 13) == issued_local_hour
     )
 
     if (already_have) {

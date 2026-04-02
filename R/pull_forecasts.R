@@ -102,12 +102,12 @@ for (i in seq_len(nrow(stations))) {
   }
 
   new_row <- data.frame(
-    station_id          = st$station_id,
-    station_name        = st$name,
-    forecast_issued_utc = issued_utc,
+    station_id          = as.character(st$station_id),
+    station_name        = as.character(st$name),
+    forecast_issued_utc = as.character(issued_utc),
     forecast_for_date   = as.character(tomorrow),
-    forecast_high_f     = fc$forecast_high_f,
-    n_hours_in_forecast = fc$n_hours_in_forecast,
+    forecast_high_f     = as.character(fc$forecast_high_f),
+    n_hours_in_forecast = as.character(fc$n_hours_in_forecast),
     stringsAsFactors    = FALSE
   )
 

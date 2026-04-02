@@ -1,2 +1,3 @@
 station_id,station_name,forecast_issued_utc,forecast_for_date,forecast_high_f,n_hours_in_forecast
 KNYC,New York Central Park,2026-04-01 22:37 UTC,2026-04-02,59,24
+KNYC,New York Central Park,2026-04-02 17:02 UTC,2026-04-03,65,24

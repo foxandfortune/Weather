@@ -126,9 +126,15 @@ for (i in seq_len(nrow(stations))) {
   if (file.exists(outfile)) {
     existing <- read_csv(outfile, col_types = cols(.default = "c"), show_col_types = FALSE)
 
+    # Add missing column if existing CSV predates this change
+    if (!"forecast_issued_local" %in% names(existing)) {
+      existing$forecast_issued_local <- NA_character_
+    }
+
     # Key: same forecast_for_date + same local hour
     issued_local_hour <- substr(issued_local, 1, 13)
     already_have <- any(
+      !is.na(existing$forecast_issued_local) &
       existing$forecast_for_date == new_row$forecast_for_date &
       substr(existing$forecast_issued_local, 1, 13) == issued_local_hour
     )

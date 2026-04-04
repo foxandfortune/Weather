@@ -2,3 +2,4 @@ station_id,station_name,forecast_issued_utc,forecast_issued_local,forecast_for_d
 KSAT,San Antonio International,2026-04-04 02:31 UTC,2026-04-03 21:32 CDT,2026-04-04,78,24
 KSAT,San Antonio International,2026-04-04 05:22 UTC,2026-04-04 00:22 CDT,2026-04-05,63,24
 KSAT,San Antonio International,2026-04-04 07:01 UTC,2026-04-04 02:02 CDT,2026-04-05,64,24
+KSAT,San Antonio International,2026-04-04 08:41 UTC,2026-04-04 03:41 CDT,2026-04-05,64,24

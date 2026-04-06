@@ -16,4 +16,11 @@ all_forecasts <- purrr::map_df(forecast_files, read.csv) %>%
 str(all_forecasts)
 
 all_forecasts %>% 
-  filter(forecast_for_date == Sys.Date())
+  filter(forecast_for_date == Sys.Date()) %>% 
+  with_groups(.groups = station_id,
+              slice,
+              n()) %>% 
+  select(station_id,
+         station_name,
+         forecast_for_date,
+         forecast_high_f)

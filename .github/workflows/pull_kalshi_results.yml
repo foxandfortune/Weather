@@ -1,0 +1,64 @@
+name: Pull Kalshi Results (daily)
+
+on:
+  schedule:
+    # Run at noon UTC (8 AM ET) — markets settle overnight, should be done by then
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+    inputs:
+      start_date:
+        description: "Start date (YYYY-MM-DD)"
+        required: false
+        default: ""
+      end_date:
+        description: "End date (YYYY-MM-DD)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  pull-kalshi-results:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: "4.3"
+          use-public-rspm: true
+
+      - name: Install R packages
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            httr
+            jsonlite
+            dplyr
+            lubridate
+            readr
+            purrr
+
+      - name: Pull Kalshi results
+        run: |
+          START="${{ github.event.inputs.start_date }}"
+          END="${{ github.event.inputs.end_date }}"
+          if [ -n "$START" ] && [ -n "$END" ]; then
+            Rscript R/pull_kalshi_results.R "$START" "$END"
+          elif [ -n "$START" ]; then
+            Rscript R/pull_kalshi_results.R "$START"
+          else
+            Rscript R/pull_kalshi_results.R
+          fi
+
+      - name: Commit results
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update Kalshi results [skip ci]"
+          file_pattern: "data/kalshi_results.csv"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"

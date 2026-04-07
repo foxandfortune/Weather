@@ -1,0 +1,25 @@
+station_id,station_name,date_local,hour_local,iem_obs_time,iem_temp_f,iem_temp_f_max,iem_dewpoint_f,iem_rh_pct,iem_wind_kts,iem_wind_dir,iem_precip_in,iem_n_obs,vc_temp_f,vc_dewpoint_f,vc_rh_pct,vc_wind_mph,vc_wind_dir,vc_precip_in,vc_conditions,vc_source,temp_diff_f,abs_diff_f,flag
+KMSY,New Orleans Armstrong,2026-04-06,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,64.1,49.9,59.95,12.8,10,0,Partially cloudy,obs,NA,NA,missing
+KMSY,New Orleans Armstrong,2026-04-06,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,64.1,49.9,59.95,10.3,20,0,Partially cloudy,obs,NA,NA,missing
+KMSY,New Orleans Armstrong,2026-04-06,10,10:05,60.8,60.8,41,48,15,30,NA,2,61.1,40.9,47.48,18.4,40,0,Overcast,obs,0.3,0.3,ok
+KMSY,New Orleans Armstrong,2026-04-06,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,62,47.9,60,13.9,50,0,Partially cloudy,fcst,NA,NA,missing
+KMSY,New Orleans Armstrong,2026-04-06,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,63.1,47.9,57.76,13.9,50,0,Partially cloudy,fcst,NA,NA,missing
+KMSY,New Orleans Armstrong,2026-04-06,13,NA,NA,NA,NA,NA,NA,NA,NA,NA,65,47,52.11,13.9,40,0,Partially cloudy,fcst,NA,NA,missing
+KMSY,New Orleans Armstrong,2026-04-06,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,67,47,48.65,12.8,40,0,Partially cloudy,fcst,NA,NA,missing
+KMSY,New Orleans Armstrong,2026-04-06,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,67.9,47,47.16,12.8,40,0,Partially cloudy,fcst,NA,NA,missing
+KMSY,New Orleans Armstrong,2026-04-06,16,NA,NA,NA,NA,NA,NA,NA,NA,NA,69,45.9,43.63,11.4,40,0,Partially cloudy,fcst,NA,NA,missing
+KMSY,New Orleans Armstrong,2026-04-06,17,NA,NA,NA,NA,NA,NA,NA,NA,NA,69,45.9,43.63,10.3,40,0,Partially cloudy,fcst,NA,NA,missing
+KMSY,New Orleans Armstrong,2026-04-06,18,NA,NA,NA,NA,NA,NA,NA,NA,NA,69,45.9,43.63,10.3,40,0,Partially cloudy,fcst,NA,NA,missing
+KMSY,New Orleans Armstrong,2026-04-06,19,NA,NA,NA,NA,NA,NA,NA,NA,NA,67.9,45.9,45.28,8.1,40,0,Clear,fcst,NA,NA,missing
+KMSY,New Orleans Armstrong,2026-04-06,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,63,48.9,59.81,12.8,30,0,Partially cloudy,obs,NA,NA,missing
+KMSY,New Orleans Armstrong,2026-04-06,20,NA,NA,NA,NA,NA,NA,NA,NA,NA,63.9,45.9,51.95,8.1,40,0,Clear,fcst,NA,NA,missing
+KMSY,New Orleans Armstrong,2026-04-06,21,NA,NA,NA,NA,NA,NA,NA,NA,NA,63.1,45.9,53.61,9.2,40,0,Clear,fcst,NA,NA,missing
+KMSY,New Orleans Armstrong,2026-04-06,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,62,45.9,55.69,9.2,40,0,Clear,fcst,NA,NA,missing
+KMSY,New Orleans Armstrong,2026-04-06,23,NA,NA,NA,NA,NA,NA,NA,NA,NA,62,45.9,55.69,10.3,50,0,Clear,fcst,NA,NA,missing
+KMSY,New Orleans Armstrong,2026-04-06,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,63,47.1,55.92,13.9,20,0,Partially cloudy,obs,NA,NA,missing
+KMSY,New Orleans Armstrong,2026-04-06,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,63,46.1,54.03,12.8,30,0,Partially cloudy,obs,NA,NA,missing
+KMSY,New Orleans Armstrong,2026-04-06,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,62.1,46.1,55.75,13.9,30,0,Overcast,obs,NA,NA,missing
+KMSY,New Orleans Armstrong,2026-04-06,6,06:53,62.1,62.6,45,53.5,11.1,40,NA,9,62.1,44.2,51.77,16.1,40,0,Partially cloudy,obs,0,0,ok
+KMSY,New Orleans Armstrong,2026-04-06,7,07:53,61,62.6,44.1,53.7,14,40,NA,13,62.1,45.1,53.58,12.8,40,0,Overcast,obs,1.1,1.1,ok
+KMSY,New Orleans Armstrong,2026-04-06,8,08:53,61,61,43,51.5,13,30,NA,13,61.1,44.2,53.77,16.1,40,0,Overcast,obs,0.1,0.1,ok
+KMSY,New Orleans Armstrong,2026-04-06,9,09:53,61,61,41,47.7,15.9,40,NA,13,61.1,43.1,51.58,15,30,0,Overcast,obs,0.1,0.1,ok

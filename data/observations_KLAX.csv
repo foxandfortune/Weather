@@ -1,0 +1,25 @@
+station_id,station_name,date_local,hour_local,iem_obs_time,iem_temp_f,iem_temp_f_max,iem_dewpoint_f,iem_rh_pct,iem_wind_kts,iem_wind_dir,iem_precip_in,iem_n_obs,vc_temp_f,vc_dewpoint_f,vc_rh_pct,vc_wind_mph,vc_wind_dir,vc_precip_in,vc_conditions,vc_source,temp_diff_f,abs_diff_f,flag
+KLAX,Los Angeles International,2026-04-06,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,64.1,56.9,77.45,4.4,131,0,Overcast,obs,NA,NA,missing
+KLAX,Los Angeles International,2026-04-06,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,65,56.1,72.83,4.5,254,0,Overcast,obs,NA,NA,missing
+KLAX,Los Angeles International,2026-04-06,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,67.9,54.9,63.22,2.2,140,0,Partially cloudy,fcst,NA,NA,missing
+KLAX,Los Angeles International,2026-04-06,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,71,54.9,56.94,6.9,170,0,Clear,fcst,NA,NA,missing
+KLAX,Los Angeles International,2026-04-06,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,72.9,56,55.38,6.9,170,0,Clear,fcst,NA,NA,missing
+KLAX,Los Angeles International,2026-04-06,13,NA,NA,NA,NA,NA,NA,NA,NA,NA,72.9,56,55.38,6.9,170,0,Clear,fcst,NA,NA,missing
+KLAX,Los Angeles International,2026-04-06,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,69,54.9,60.92,10.3,230,0,Clear,fcst,NA,NA,missing
+KLAX,Los Angeles International,2026-04-06,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,67,54.1,63.11,10.3,230,0,Clear,fcst,NA,NA,missing
+KLAX,Los Angeles International,2026-04-06,16,NA,NA,NA,NA,NA,NA,NA,NA,NA,69,56,63.36,10.3,230,0,Clear,fcst,NA,NA,missing
+KLAX,Los Angeles International,2026-04-06,17,NA,NA,NA,NA,NA,NA,NA,NA,NA,67,54.1,63.11,10.3,240,0,Clear,fcst,NA,NA,missing
+KLAX,Los Angeles International,2026-04-06,18,NA,NA,NA,NA,NA,NA,NA,NA,NA,63.1,53,69.64,10.3,240,0,Clear,fcst,NA,NA,missing
+KLAX,Los Angeles International,2026-04-06,19,NA,NA,NA,NA,NA,NA,NA,NA,NA,63.1,54.9,74.86,10.3,240,0,Clear,fcst,NA,NA,missing
+KLAX,Los Angeles International,2026-04-06,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,64.1,57.8,79.95,5.7,193,0,Overcast,obs,NA,NA,missing
+KLAX,Los Angeles International,2026-04-06,20,NA,NA,NA,NA,NA,NA,NA,NA,NA,63.1,56,77.85,5.8,240,0,Clear,fcst,NA,NA,missing
+KLAX,Los Angeles International,2026-04-06,21,NA,NA,NA,NA,NA,NA,NA,NA,NA,61.1,54.9,80.28,5.8,240,0,Clear,fcst,NA,NA,missing
+KLAX,Los Angeles International,2026-04-06,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,61.1,56.9,86.25,5.8,240,0,Clear,fcst,NA,NA,missing
+KLAX,Los Angeles International,2026-04-06,23,NA,NA,NA,NA,NA,NA,NA,NA,NA,58.9,54.9,86.69,3.4,180,0.004,Partially cloudy,fcst,NA,NA,missing
+KLAX,Los Angeles International,2026-04-06,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,63.1,58.9,86.29,6.6,206,0,Overcast,obs,NA,NA,missing
+KLAX,Los Angeles International,2026-04-06,4,04:53,63,63,59,86.9,4.1,220,NA,9,63.1,60.1,89.99,0,0,0,Overcast,obs,0.1,0.1,ok
+KLAX,Los Angeles International,2026-04-06,5,05:53,63,63,60.1,90.3,2.9,350,NA,13,63.1,58.9,86.4,4.4,229,0,Overcast,obs,0.1,0.1,ok
+KLAX,Los Angeles International,2026-04-06,6,06:53,63,64.4,59,86.9,2.9,80,NA,13,63.1,60.1,89.99,3.1,351,0,Overcast,obs,0.1,0.1,ok
+KLAX,Los Angeles International,2026-04-06,7,07:53,64,64.4,57,77.9,4.1,100,NA,13,63.1,58.9,86.16,3.1,75,0,Overcast,obs,-0.9,0.9,ok
+KLAX,Los Angeles International,2026-04-06,8,08:05,64.4,64.4,57.2,77.5,NA,NA,NA,2,58.9,53,80.64,2.2,140,0,Partially cloudy,fcst,-5.5,5.5,LARGE_DIFF
+KLAX,Los Angeles International,2026-04-06,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,61.1,53,74.68,2.2,140,0,Partially cloudy,fcst,NA,NA,missing

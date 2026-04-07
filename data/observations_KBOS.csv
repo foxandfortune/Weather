@@ -1,0 +1,25 @@
+station_id,station_name,date_local,hour_local,iem_obs_time,iem_temp_f,iem_temp_f_max,iem_dewpoint_f,iem_rh_pct,iem_wind_kts,iem_wind_dir,iem_precip_in,iem_n_obs,vc_temp_f,vc_dewpoint_f,vc_rh_pct,vc_wind_mph,vc_wind_dir,vc_precip_in,vc_conditions,vc_source,temp_diff_f,abs_diff_f,flag
+KBOS,Boston Logan,2026-04-06,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,47,30.8,53.16,15,290,0,Overcast,obs,NA,NA,missing
+KBOS,Boston Logan,2026-04-06,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,47,29,49.41,18.3,290,0,Partially cloudy,obs,NA,NA,missing
+KBOS,Boston Logan,2026-04-06,10,10:54,46,46.4,24.1,41.8,15.9,270,NA,11,44.1,22.9,42.74,17.2,270,0,Partially cloudy,obs,-1.9,1.9,ok
+KBOS,Boston Logan,2026-04-06,11,11:10,46.4,46.4,23,39.4,18,280,NA,3,42,26,52.74,16.1,280,0,Partially cloudy,fcst,-4.4,4.4,moderate_diff
+KBOS,Boston Logan,2026-04-06,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,43.1,26,50.59,17.2,280,0,Partially cloudy,fcst,NA,NA,missing
+KBOS,Boston Logan,2026-04-06,13,NA,NA,NA,NA,NA,NA,NA,NA,NA,44,27,51.11,16.1,280,0,Partially cloudy,fcst,NA,NA,missing
+KBOS,Boston Logan,2026-04-06,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,45,26,46.91,16.1,270,0,Partially cloudy,fcst,NA,NA,missing
+KBOS,Boston Logan,2026-04-06,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,45.9,26,45.34,16.1,280,0,Partially cloudy,fcst,NA,NA,missing
+KBOS,Boston Logan,2026-04-06,16,NA,NA,NA,NA,NA,NA,NA,NA,NA,47,27,45.51,16.1,280,0,Partially cloudy,fcst,NA,NA,missing
+KBOS,Boston Logan,2026-04-06,17,NA,NA,NA,NA,NA,NA,NA,NA,NA,47.9,26,42.08,16.1,280,0,Partially cloudy,fcst,NA,NA,missing
+KBOS,Boston Logan,2026-04-06,18,NA,NA,NA,NA,NA,NA,NA,NA,NA,47,26,43.53,15,280,0,Partially cloudy,fcst,NA,NA,missing
+KBOS,Boston Logan,2026-04-06,19,NA,NA,NA,NA,NA,NA,NA,NA,NA,47,26,43.53,12.8,280,0,Partially cloudy,fcst,NA,NA,missing
+KBOS,Boston Logan,2026-04-06,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,46.1,29,51.1,10.3,280,0,Partially cloudy,obs,NA,NA,missing
+KBOS,Boston Logan,2026-04-06,20,NA,NA,NA,NA,NA,NA,NA,NA,NA,45.9,26,45.34,12.8,280,0,Clear,fcst,NA,NA,missing
+KBOS,Boston Logan,2026-04-06,21,NA,NA,NA,NA,NA,NA,NA,NA,NA,44,27,51.11,11.4,280,0,Clear,fcst,NA,NA,missing
+KBOS,Boston Logan,2026-04-06,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,44,27,51.11,9.2,280,0,Clear,fcst,NA,NA,missing
+KBOS,Boston Logan,2026-04-06,23,NA,NA,NA,NA,NA,NA,NA,NA,NA,43.1,27,52.9,6.9,290,0,Clear,fcst,NA,NA,missing
+KBOS,Boston Logan,2026-04-06,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,45,28.1,51.33,12.7,270,0,Partially cloudy,obs,NA,NA,missing
+KBOS,Boston Logan,2026-04-06,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,44.1,29,55.07,18.3,270,0,Partially cloudy,obs,NA,NA,missing
+KBOS,Boston Logan,2026-04-06,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,43.1,24.2,46.99,27.6,270,0,Partially cloudy,obs,NA,NA,missing
+KBOS,Boston Logan,2026-04-06,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,42.2,21.8,44.09,23,270,0,Partially cloudy,obs,NA,NA,missing
+KBOS,Boston Logan,2026-04-06,7,07:54,42.1,42.8,24.1,48.6,13,270,NA,10,40.9,22.9,48.41,17.2,270,0,Partially cloudy,obs,-1.2,1.2,ok
+KBOS,Boston Logan,2026-04-06,8,08:54,43,44.6,24.1,46.9,19,290,NA,13,42.2,24.2,48.6,15,270,0,Partially cloudy,obs,-0.8,0.8,ok
+KBOS,Boston Logan,2026-04-06,9,09:54,44.1,44.6,23,43,15,270,NA,13,43.1,24.2,46.95,21.9,290,0,Partially cloudy,obs,-1,1,ok

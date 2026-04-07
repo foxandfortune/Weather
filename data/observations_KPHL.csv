@@ -1,0 +1,25 @@
+station_id,station_name,date_local,hour_local,iem_obs_time,iem_temp_f,iem_temp_f_max,iem_dewpoint_f,iem_rh_pct,iem_wind_kts,iem_wind_dir,iem_precip_in,iem_n_obs,vc_temp_f,vc_dewpoint_f,vc_rh_pct,vc_wind_mph,vc_wind_dir,vc_precip_in,vc_conditions,vc_source,temp_diff_f,abs_diff_f,flag
+KPHL,Philadelphia International,2026-04-06,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,53.1,31.9,44.23,12.7,280,0,Overcast,obs,NA,NA,missing
+KPHL,Philadelphia International,2026-04-06,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,52.1,29.9,42.47,17.2,310,0,Overcast,obs,NA,NA,missing
+KPHL,Philadelphia International,2026-04-06,10,10:54,51.1,51.8,25,35.9,15.9,330,NA,13,48.8,25.1,39.21,16.1,320,0,Partially cloudy,obs,-2.3,2.3,ok
+KPHL,Philadelphia International,2026-04-06,11,11:05,51.8,51.8,24.8,34.7,14,320,NA,2,49.9,27,40.87,12.8,300,0,Clear,fcst,-1.9,1.9,ok
+KPHL,Philadelphia International,2026-04-06,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,53,27.9,37.87,12.8,290,0,Clear,fcst,NA,NA,missing
+KPHL,Philadelphia International,2026-04-06,13,NA,NA,NA,NA,NA,NA,NA,NA,NA,54.1,27.9,36.41,12.8,280,0,Clear,fcst,NA,NA,missing
+KPHL,Philadelphia International,2026-04-06,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,56.9,29,34.28,12.8,280,0,Partially cloudy,fcst,NA,NA,missing
+KPHL,Philadelphia International,2026-04-06,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,58,29,32.97,13.9,270,0,Partially cloudy,fcst,NA,NA,missing
+KPHL,Philadelphia International,2026-04-06,16,NA,NA,NA,NA,NA,NA,NA,NA,NA,58,29.9,34.2,13.9,270,0,Partially cloudy,fcst,NA,NA,missing
+KPHL,Philadelphia International,2026-04-06,17,NA,NA,NA,NA,NA,NA,NA,NA,NA,58.9,31,34.6,12.8,270,0,Partially cloudy,fcst,NA,NA,missing
+KPHL,Philadelphia International,2026-04-06,18,NA,NA,NA,NA,NA,NA,NA,NA,NA,56,33,41.56,11.4,270,0,Partially cloudy,fcst,NA,NA,missing
+KPHL,Philadelphia International,2026-04-06,19,NA,NA,NA,NA,NA,NA,NA,NA,NA,54.9,33,43.23,8.1,270,0,Partially cloudy,fcst,NA,NA,missing
+KPHL,Philadelphia International,2026-04-06,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,51.2,29,42.32,15,290,0,Partially cloudy,obs,NA,NA,missing
+KPHL,Philadelphia International,2026-04-06,20,NA,NA,NA,NA,NA,NA,NA,NA,NA,53,35,50.29,6.9,270,0.004,Partially cloudy,fcst,NA,NA,missing
+KPHL,Philadelphia International,2026-04-06,21,NA,NA,NA,NA,NA,NA,NA,NA,NA,51,36,56.46,6.9,270,0,Partially cloudy,fcst,NA,NA,missing
+KPHL,Philadelphia International,2026-04-06,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,49,36.9,62.97,5.8,270,0,Partially cloudy,fcst,NA,NA,missing
+KPHL,Philadelphia International,2026-04-06,23,NA,NA,NA,NA,NA,NA,NA,NA,NA,47.9,36.9,65.57,5.8,270,0.028,Partially cloudy,fcst,NA,NA,missing
+KPHL,Philadelphia International,2026-04-06,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,49.9,29,44.34,15,320,0,Partially cloudy,obs,NA,NA,missing
+KPHL,Philadelphia International,2026-04-06,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,47.9,26.2,42.42,18.3,310,0,Partially cloudy,obs,NA,NA,missing
+KPHL,Philadelphia International,2026-04-06,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,45,24.2,43.55,20.7,310,0,Partially cloudy,obs,NA,NA,missing
+KPHL,Philadelphia International,2026-04-06,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,44.1,25.1,46.79,10.3,310,0,Partially cloudy,obs,NA,NA,missing
+KPHL,Philadelphia International,2026-04-06,7,07:54,45,45,25,45.2,12.1,300,NA,9,44.1,25.1,46.8,9.2,310,0,Partially cloudy,obs,-0.9,0.9,ok
+KPHL,Philadelphia International,2026-04-06,8,08:54,46.9,46.9,24.1,40.4,17.1,310,NA,13,45,25.1,45.21,13.8,300,0,Partially cloudy,obs,-1.9,1.9,ok
+KPHL,Philadelphia International,2026-04-06,9,09:54,48.9,48.9,25,38.9,14,320,NA,13,47,24.2,40.41,19.6,310,0,Partially cloudy,obs,-1.9,1.9,ok

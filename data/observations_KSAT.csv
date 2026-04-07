@@ -1,0 +1,25 @@
+station_id,station_name,date_local,hour_local,iem_obs_time,iem_temp_f,iem_temp_f_max,iem_dewpoint_f,iem_rh_pct,iem_wind_kts,iem_wind_dir,iem_precip_in,iem_n_obs,vc_temp_f,vc_dewpoint_f,vc_rh_pct,vc_wind_mph,vc_wind_dir,vc_precip_in,vc_conditions,vc_source,temp_diff_f,abs_diff_f,flag
+KSAT,San Antonio International,2026-04-06,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,53.1,46.1,77,6.9,290,0,Partially cloudy,obs,NA,NA,missing
+KSAT,San Antonio International,2026-04-06,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,53.2,46.1,77,3.4,310,0,Partially cloudy,obs,NA,NA,missing
+KSAT,San Antonio International,2026-04-06,10,10:05,62.6,62.6,41,45.1,6,360,NA,2,61.1,40.9,47.41,6.9,41,0,Partially cloudy,obs,-1.5,1.5,ok
+KSAT,San Antonio International,2026-04-06,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,63.9,43.1,46.55,10.3,50,0,Clear,fcst,NA,NA,missing
+KSAT,San Antonio International,2026-04-06,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,65.9,43.1,43.45,10.3,50,0,Clear,fcst,NA,NA,missing
+KSAT,San Antonio International,2026-04-06,13,NA,NA,NA,NA,NA,NA,NA,NA,NA,69,42,37.51,10.3,50,0,Clear,fcst,NA,NA,missing
+KSAT,San Antonio International,2026-04-06,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,71,43.1,36.54,10.3,50,0,Clear,fcst,NA,NA,missing
+KSAT,San Antonio International,2026-04-06,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,72.1,42,33.8,9.2,50,0,Clear,fcst,NA,NA,missing
+KSAT,San Antonio International,2026-04-06,16,NA,NA,NA,NA,NA,NA,NA,NA,NA,72.9,40.9,31.45,9.2,60,0,Clear,fcst,NA,NA,missing
+KSAT,San Antonio International,2026-04-06,17,NA,NA,NA,NA,NA,NA,NA,NA,NA,74,40.9,30.33,9.2,60,0,Clear,fcst,NA,NA,missing
+KSAT,San Antonio International,2026-04-06,18,NA,NA,NA,NA,NA,NA,NA,NA,NA,72.9,40,30.37,9.2,60,0,Clear,fcst,NA,NA,missing
+KSAT,San Antonio International,2026-04-06,19,NA,NA,NA,NA,NA,NA,NA,NA,NA,71,40,32.47,8.1,70,0,Clear,fcst,NA,NA,missing
+KSAT,San Antonio International,2026-04-06,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,54,44.2,69.11,8,310,0,Partially cloudy,obs,NA,NA,missing
+KSAT,San Antonio International,2026-04-06,20,NA,NA,NA,NA,NA,NA,NA,NA,NA,67.9,40.9,37.34,6.9,70,0,Clear,fcst,NA,NA,missing
+KSAT,San Antonio International,2026-04-06,21,NA,NA,NA,NA,NA,NA,NA,NA,NA,65,42,43.01,5.8,70,0,Clear,fcst,NA,NA,missing
+KSAT,San Antonio International,2026-04-06,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,62,42,47.88,5.8,60,0,Clear,fcst,NA,NA,missing
+KSAT,San Antonio International,2026-04-06,23,NA,NA,NA,NA,NA,NA,NA,NA,NA,60,43.1,53.53,5.8,60,0,Clear,fcst,NA,NA,missing
+KSAT,San Antonio International,2026-04-06,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,54,44.1,69.11,5.8,320,0,Partially cloudy,obs,NA,NA,missing
+KSAT,San Antonio International,2026-04-06,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,55.1,43.1,63.76,5.8,330,0,Partially cloudy,obs,NA,NA,missing
+KSAT,San Antonio International,2026-04-06,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,53.2,42.2,66.21,6.9,330,0,Partially cloudy,obs,NA,NA,missing
+KSAT,San Antonio International,2026-04-06,6,06:55,48.2,48.9,42.8,81.5,6,310,NA,9,48.8,42.2,77.68,5.8,320,0,Partially cloudy,obs,0.6,0.6,ok
+KSAT,San Antonio International,2026-04-06,7,07:55,53.6,53.6,39.2,58,7,350,NA,13,48.8,42.2,77.67,6.9,310,0,Partially cloudy,obs,-4.8,4.8,moderate_diff
+KSAT,San Antonio International,2026-04-06,8,08:55,57.2,57.2,41,54.6,6,10,NA,13,53.1,39.8,60.49,10.3,350,0,Partially cloudy,obs,-4.1,4.1,moderate_diff
+KSAT,San Antonio International,2026-04-06,9,09:55,60.8,61,41,48,7,10,NA,13,56.9,40.9,54.97,6.9,10,0,Partially cloudy,obs,-3.9,3.9,moderate_diff
